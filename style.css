@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    min-height: 100%;
+    background-image: url(images/audio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1 {
+    position: absolute;
+    padding: 10rem;
+    margin-left: 27rem;
+    margin-top: -5rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.7rem;
+    color: rgb(79, 64, 7);
+}
+.square {
+    text-align: center;
+    padding: 4.7rem;
+    display: inline-block;
+    margin-top: 14rem;
+}
+.item {
+    width: 6rem;
+    height: 3.5rem;
+    text-align: center;
+    padding-top: 1.9rem;
+    cursor: pointer;
+
+}
+.with-border {
+    position: relative;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+kbd {
+    font-family: 'Lobster', cursive;
+}
+.with-border::after {
+    content: "";
+    border: solid 0.2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -0.313rem;
+    border-radius: inherit;
+    background-image: radial-gradient(circle, rgba(224,184,50,1) 12%, rgba(171,152,4,1) 37%, rgba(247,250,226,1) 97%);
+}
