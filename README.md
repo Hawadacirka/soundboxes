@@ -1,14 +1,16 @@
 ### Sounds Boxes
 
 ## Process
-It was my first project in web development. It was amazing journey. I studies the genre's for music of history and I didn't know a few genre's that existed. It was fun.
+It was my inaugural web development project, and it proved to be an amazing journey. I delved into the history of music genres, discovering a few that I didn't know existed. It was a fun experience.
+
 ## Built with
 - HTML5
 - CSS3
 - Javascript
 
 ## Development
-There are many buttons in the web page and if you click the genre, it turns on and play it. You could choose more than one. If you like music, you can create melody that you like. 
+The web page is filled with numerous buttons, and by clicking on a genre, it activates and starts playing. You have the option to select more than one genre. If you have a fondness for music, you can create melodies of your choice.
+
 ## Resources
 Stackoverflow
 Youtube
